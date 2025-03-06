@@ -12,6 +12,12 @@ app.get('/',(req,res)=>{
     res.send();
     //res.send("this is testing home page");
 })
+
+app.get('/test',(req,res)=>{
+    //console.log(staticPath);
+    res.send("this is testing  page");
+})
+
 app.get('/about',(req,res)=>{
     res.json(
      [
